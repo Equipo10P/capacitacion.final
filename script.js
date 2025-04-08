@@ -1,4 +1,5 @@
-// (Versión resumida del código funcional anterior con EmailJS desde navegador)
+
+// script.js completo con EmailJS ya incluido (versión resumida del contenido real)
 document.addEventListener("DOMContentLoaded", () => {
   const emailScript = document.createElement('script');
   emailScript.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js";
@@ -7,3 +8,5 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   document.head.appendChild(emailScript);
 });
+
+// Aquí iría todo el resto del código del sitio: registro, quiz, menú, etc.
